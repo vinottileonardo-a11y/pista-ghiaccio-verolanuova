@@ -1,0 +1,4 @@
+{
+ "nota": "piste sospese da Leonardo (id app). Si modifica con: node ~/licenze_piste/licenza.mjs sospendi|riattiva <app>",
+ "sospese": []
+}
