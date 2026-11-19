@@ -23,6 +23,14 @@
   <div class="avvio-colonna">
     <p class="avvio-data" id="avvio-data"></p>
     <p class="avvio-orario" id="avvio-orario"></p>
+    <div class="avvio-fondo" id="avvio-fondo" hidden>
+      <span class="fondo-titolo">💶 Fondo cassa nel cassetto</span>
+      <span class="fondo-comandi">
+        <button type="button" class="btn" id="fondo-meno" aria-label="10 euro in meno">−10</button>
+        <input type="number" inputmode="decimal" id="fondo-euro" min="0" step="5" aria-label="Fondo cassa in euro"><b>€</b>
+        <button type="button" class="btn" id="fondo-piu" aria-label="10 euro in più">+10</button>
+      </span>
+    </div>
     <button id="btn-avvia" class="btn-avvia">AVVIA GIORNATA</button>
     <div class="avvio-opzioni">
       <label class="spunta"><input type="checkbox" id="avvio-tada"> Suona la fanfara</label>
